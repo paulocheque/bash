@@ -10,9 +10,32 @@ bash-toolbelt
 
 **Latest version: 0.0.1 (2016/01)**
 
-Small description.
+Utility methods to facilitate automation of devops tasks. Good to be used with Fabric or Invoke.
 
 Documentation
 -------------
 
 http://bash-toolbelt.readthedocs.org/en/latest/index.html
+
+Git utilities:
+
+    from bash import git
+
+    next_tag = git.autoincrement_tag('1.2.3')
+    assert git.current_git_branch() == 'master'
+    git.last_git_tag() == '1.2.3'
+    git.create_tag('1.0.0')
+    git.auto_create_tag()
+    git.reset_tag('1.2.3')
+    git.reset_last_tag()
+
+OS utilities:
+
+    import bash.os
+
+    output = bash.os.run('ls')
+    bash.os.wait_for(10, 1, lambda x: None, arg1, arg2, arg3=None)
+    data = bash.os.read_config_file('filepath')
+    assert bash.os.str2bool('y')
+    assert bash.os.is_mac()
+    assert bash.os.is_linux()
