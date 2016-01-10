@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'grep'
+project = u'bash'
 copyright = u'2014, Paulo Cheque'
 
 # The version info for the project you're documenting, acts as replacement for

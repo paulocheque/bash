@@ -9,9 +9,9 @@ Change Log
 
 Date format: yyyy/mm/dd
 
-Version VERSION - 2014/09
+Version 0.0.1 - 2016/01
 -------------------------------------------------------------------------------
-  * <http://pypi.python.org/pypi/grep/VERSION>
+  * <http://pypi.python.org/pypi/bash-toolbelt/0.0.1>
   * [New]
   * [Update]
 

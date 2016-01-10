@@ -16,38 +16,28 @@ from setuptools import setup, find_packages
 VERSION = '0.0.1'
 
 tests_require = [
-    'nose==1.1.2',
-    'django-nose==0.1.3',
-    'coverage==3.7.1',
-    'django-coverage==1.2.4',
-    'nose==1.3.0',
-    'django-nose==1.2',
-    'tox==1.7.0',
-    'flake8==2.1.0',
-    'jsonfield',
+    'pytest==2.8.5',
+    'tox==2.3.1',
 ]
 
 install_requires = [
-    'six',
 ]
 
 # from pip.req import parse_requirements
 # install_requires = parse_requirements('requirements.txt')
 # tests_require = parse_requirements('requirements-dev.txt')
 
-setup(name='grep',
-      url='https://github.com/paulocheque/grep',
+setup(name='bash-toolbelt',
+      url='https://github.com/paulocheque/bash-toolbelt',
       author="paulocheque",
       author_email='paulocheque@gmail.com',
-      keywords='python django testing fixture',
+      keywords='python bach utility library git os',
       description='',
       license='MIT',
       classifiers=[
-          'Framework :: Django',
           'Operating System :: OS Independent',
           'Topic :: Software Development',
           'Programming Language :: Python :: 2.7',
-          'Programming Language :: Python :: 3.3',
           'Programming Language :: Python :: 3.4',
           'Programming Language :: Python :: Implementation :: PyPy',
       ],
@@ -58,7 +48,6 @@ setup(name='grep',
       test_suite='runtests.runtests',
       extras_require={'test': tests_require},
 
-      entry_points={ 'nose.plugins': [] },
       packages=find_packages(),
 )
 
