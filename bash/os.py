@@ -8,6 +8,9 @@ import time
 
 def run(cmd):
     try:
+        # Python 3.5
+        # result = subprocess.run(cmd, shell=True, check=True, stdout=subprocess.PIPE).stdout.strip()
+        # return result.stdout, result.returncode
         return subprocess.check_output(cmd, shell=True).strip()
     except subprocess.CalledProcessError as e:
         return ''

@@ -25,7 +25,10 @@ def create_tag(tag):
 
 def auto_create_tag():
     tag = last_git_tag()
-    tag = autoincrement_tag(tag)
+    if tag:
+        tag = autoincrement_tag(tag)
+    else:
+        tag = '0.0.0'
     return create_tag(tag)
 
 def reset_tag(tag):
