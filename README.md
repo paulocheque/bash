@@ -8,7 +8,7 @@ bash-toolbelt
 [![PyPi version](https://pypip.in/v/bash-toolbelt/badge.png)](https://crate.io/packages/bash-toolbelt/)
 [![PyPi downloads](https://pypip.in/d/bash-toolbelt/badge.png)](https://crate.io/packages/bash-toolbelt/)
 
-**Latest version: 0.0.1 (2016/01)**
+**Latest version: 0.0.2 (2016/01)**
 
 Utility methods to facilitate automation of devops tasks. Good to be used with Fabric or Invoke.
 
