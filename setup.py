@@ -32,7 +32,7 @@ setup(name='bash-toolbelt',
       author="paulocheque",
       author_email='paulocheque@gmail.com',
       keywords='python bach utility library git os',
-      description='',
+      description='Utility methods to facilitate automation of devops tasks.',
       license='MIT',
       classifiers=[
           'Operating System :: OS Independent',
