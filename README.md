@@ -5,8 +5,8 @@ bash-toolbelt
 [![Docs Status](https://readthedocs.org/projects/bash-toolbelt/badge/?version=latest)](http://bash-toolbelt.readthedocs.org/en/latest/index.html)
 [![Coverage Status](https://coveralls.io/repos/paulocheque/bash-toolbelt/badge.png?branch=master)](https://coveralls.io/r/paulocheque/bash?branch=master)
 [![Code Status](https://landscape.io/github/paulocheque/bash-toolbelt/master/landscape.png)](https://landscape.io/github/paulocheque/bash-toolbelt/)
-[![PyPi version](https://pypip.in/v/bash-toolbelt/badge.png)](https://crate.io/packages/bash-toolbelt/)
-[![PyPi downloads](https://pypip.in/d/bash-toolbelt/badge.png)](https://crate.io/packages/bash-toolbelt/)
+[![PyPi version](https://img.shields.io/pypi/v/bash-toolbelt.svg)](https://crate.io/packages/bash-toolbelt/)
+[![PyPi downloads](https://img.shields.io/pypi/dm/bash-toolbelt.svg)](https://crate.io/packages/bash-toolbelt/)
 
 **Latest version: 0.0.2 (2016/01)**
 
